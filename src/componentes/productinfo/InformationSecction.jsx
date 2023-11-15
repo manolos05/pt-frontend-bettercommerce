@@ -22,7 +22,7 @@ export const InformationSection = () => {
                 <p className="text-decoration-line-through ps-2 ps-4 fs-5 fw-medium text-secondary"> $71.990 </p>
             </div>
 
-            <button className="enviobtn">ENVIO GRATIS STGO</button>
+            <div className='free-shiping '>ENVIO GRATIS STGO</div>
             <p className="mt-4 pt-4"> SKU158023425509 </p>
             <div className="description">
             <p className="p-2">{description}</p>

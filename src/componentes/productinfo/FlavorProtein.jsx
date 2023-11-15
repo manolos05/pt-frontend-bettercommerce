@@ -26,7 +26,7 @@ export const FlavorProtein = () =>{
         <>
 
             <div className="dropdown">
-                <button className="btn btn-outline-light dropdown-toggle flavor btn-lg" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <button className="btn btn-outline-light dropdown-toggle flavor btn-lg chooseflavor" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Escogre sabor
                 </button>
                 <ul className="dropdown-menu dropdown-menu-ligth">

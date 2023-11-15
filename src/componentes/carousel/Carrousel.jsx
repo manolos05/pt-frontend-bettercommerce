@@ -13,6 +13,8 @@ export const Carrousel = () => {
       <h1
         style={{
           color: '#4D525C',
+          textAlign: 'center',
+          marginTop: '10px'
         }}
       >
         {' '}

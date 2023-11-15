@@ -29,3 +29,31 @@
     background-color: white ;
     color: #EB00D3;
 }
+
+.addcart {
+    border-color: #EB00D3;
+    background-color: #EB00D3;
+    width: 100%;
+
+}
+
+.buttonCart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    height: 30px;
+    font-weight: bolder;
+}
+
+.addcart:hover {
+    border-color: #EB00D3;
+    background-color: white;
+    color: black;
+    font-weight:600;
+}
+
+.chooseflavor:hover {
+    border-color: #EB00D3;
+
+}
