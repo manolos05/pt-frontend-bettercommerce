@@ -1,8 +1,11 @@
 import { NavBar } from "./componentes/navBar/NavBar"
+import { ProductInformation } from "./componentes/productinfo/ProductInformation"
 
-import { Hero } from "./componentes/hero/Hero"
+
 
 import './app.css'
+import { Footer } from "./componentes/Footer"
+
 
 
 
@@ -13,7 +16,8 @@ function App() {
   return (
     <>
     <NavBar />
-    <Hero />
+    <ProductInformation />
+    <Footer />
    
     </>
   )

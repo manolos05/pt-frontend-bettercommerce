@@ -1,0 +1,33 @@
+.free-shiping{
+    background-color: rgba(0, 255, 240, 0.2);
+    color: rgba(7, 112, 106, 1);
+    width: 114px;
+    height: 19px;
+    border: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8px;
+}
+
+
+
+.react-multi-carousel-list{
+    position: unset !important;
+  }
+
+.custom-buttons {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #EB00D3;
+    color: #EB00D3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+
+}

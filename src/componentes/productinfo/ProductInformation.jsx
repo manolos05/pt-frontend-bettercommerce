@@ -2,7 +2,7 @@ import { InformationSection } from "./InformationSecction"
 import { PhotoSecction } from "./PhotoSecction"
 
 
-export const Hero = () => {
+export const ProductInformation = () => {
 
 
     return (
