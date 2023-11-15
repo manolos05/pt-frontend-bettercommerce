@@ -1,3 +1,16 @@
 .hola {
     background-color: #EB00D3;
 }
+
+.hola1 {
+    color:#EB00D3
+}
+
+.enviobtn {
+    background-color: #00FFF0;
+    color: #007706;
+    margin: #007706;
+    font-size: smaller;
+    font-weight:600
+ ;
+}
