@@ -23,6 +23,7 @@
 .flavor {
     border-color:#EB00D3;
     color: #EB00D3;
+    width: 250px;
 }
 
 .flavor:hover{
@@ -56,4 +57,8 @@
 .chooseflavor:hover {
     border-color: #EB00D3;
 
+}
+
+.flavorselected {
+    color: black;
 }

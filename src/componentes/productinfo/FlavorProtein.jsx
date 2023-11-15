@@ -25,26 +25,19 @@ export const FlavorProtein = () =>{
 
         <>
 
-            <div className="dropdown">
-                <button className="btn btn-outline-light dropdown-toggle flavor btn-lg chooseflavor" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Escogre sabor
-                </button>
-                <ul className="dropdown-menu dropdown-menu-ligth">
+         
 
-
+                <select className="form-select flavor chooseflavor" >
+                    <option selected className="flavorselected">Escoger sabor</option>
                     {flavors.length !== 0 ? (
                         flavors.map(({ flavor, id} ) => (
-                            <li className="" key={id}><a class="dropdown-item" href="#">{flavor}</a></li>
+                            <option value={id} className="text-dark" key={id}>{flavor}</option>
                         ))
                     ) : (
                         <div></div>
-                    )}
-
-                       
-                    
-              
-                </ul>
-            </div>
+                    )}                    
+                </select>
+        
 
         </>
 

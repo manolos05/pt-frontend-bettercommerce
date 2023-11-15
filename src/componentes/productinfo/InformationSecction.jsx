@@ -1,4 +1,5 @@
-import { AgregarAlCarrito } from "./AgregarAlCArrito"
+import { AddToCart } from "./AddToCart"
+import { DeliveryInformation } from "./DeliveryInformation"
 import { FlavorProtein } from "./FlavorProtein"
 
 
@@ -31,8 +32,8 @@ export const InformationSection = () => {
             <p> Sabor: </p>
 
             <FlavorProtein />
-
-            <AgregarAlCarrito />
+            <AddToCart />
+            <DeliveryInformation />
 
 
         </>
