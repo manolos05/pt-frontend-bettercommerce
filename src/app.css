@@ -11,6 +11,11 @@
     color: #007706;
     margin: #007706;
     font-size: smaller;
-    font-weight:600
- ;
+    font-weight:600;
+}
+
+.description {
+    background-color: #F5F4F4;
+    border-radius: 5px;
+    width: 80%;
 }
