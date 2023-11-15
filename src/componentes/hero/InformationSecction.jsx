@@ -1,3 +1,4 @@
+import { FlavorProtein } from "./FlavorProtein"
 
 
 
@@ -26,7 +27,9 @@ export const InformationSection = () => {
             <p className="p-2">{description}</p>
             </div>
 
-            <p> Sabor </p>
+            <p> Sabor: </p>
+
+            <FlavorProtein />
 
 
         </>
