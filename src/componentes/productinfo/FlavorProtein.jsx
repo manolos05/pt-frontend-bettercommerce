@@ -16,7 +16,6 @@ export const FlavorProtein = () =>{
           } catch (error) {
             console.log("error", error);
           }
-
     }, [])
    
 
@@ -34,7 +33,7 @@ export const FlavorProtein = () =>{
                             <option value={id} className="text-dark" key={id}>{flavor}</option>
                         ))
                     ) : (
-                        <div></div>
+                        <option></option>
                     )}                    
                 </select>
         
