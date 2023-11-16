@@ -6,7 +6,12 @@ Este es un proyecto como solución a la prueba tecnica para Better creado con Re
 de retiro en tienda y el sabor de las proteinas.
 2. Los iconos utilizados son de material UI
 
-3. El puerto para ver el proyecto en el navegador es el http://localhost:5173/
+
+4. Para darle un poco más de dinamismo a la pag utilice el hook useState en la sección de los productos, para poder agregar o restar productos, adicinalmente para el carrousel utlilice la libreria react-multi-carrousel
+
+5. Los estilos del proyecto se realizaron Bootstrap5 y CSS
+
+6. Dentro de la carpeta src se encuentra la carpeta componentes, en esta encuentran las distintas secciones de la APP desglosadas en subsecciones para una mejor lectura de estos componentes, siempre tratando de lograr un codigo mas legible.
 
 La version de node es v18.15.0
 
@@ -17,3 +22,10 @@ Para ejecutar el proyecto:
 
 1. Instala las dependencias con `npm install`.
 2. Ejecuta el proyecto con `npm run dev`.
+3. El puerto del navegador para ver el proyecto en el navegador es el http://localhost:5173/
+
+
+Saludos
+Manuel Salazar
++56949664444
+manusalh@gmail.com
