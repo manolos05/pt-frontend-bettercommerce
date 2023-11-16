@@ -121,3 +121,13 @@
     text-decoration: underline;
     text-decoration-color: black;
 }
+
+.modal-hr{
+    width: 95%;
+    margin: auto;
+    border-top: black solid 1px;
+}
+
+.modal-content {
+    height: 300px;
+}

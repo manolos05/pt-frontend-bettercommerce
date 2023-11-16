@@ -1,7 +1,14 @@
 import img from './carouselImg.png';
 import '../../style/product-card.css';
 
-export const ProductCard = ({brand, product_name,  price, discount}) => {
+export const ProductCard = ({brand, product_name,  price, discount, id}) => {
+
+  const percentajeDiscount = (price * discount) / 100;
+  const finalPrice = price - percentajeDiscount;
+  const formatedPrice = finalPrice.toLocaleString('en');
+
+  
+
   return (
     <div className='card text-start border-0'>
       {' '}
@@ -16,8 +23,8 @@ export const ProductCard = ({brand, product_name,  price, discount}) => {
           alignItems: 'center',
         }}
       >
-        <h2 className='d-inline text-main-color mr-1'>{discount}</h2>{' '}
-        <span className='text-decoration-line-through '>{price}</span>
+        <h2 className='d-inline text-main-color mr-1'>${ formatedPrice }</h2>{' '}
+        <span className='text-decoration-line-through '>${price.toLocaleString('en')}</span>
       </div>
       <div className='free-shiping '>ENVIO GRATIS STGO</div>
     </div>

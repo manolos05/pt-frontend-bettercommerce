@@ -56,15 +56,14 @@ export const DeliveryInformation = () => {
           aria-labelledby='exampleModalLabel'
           aria-hidden='true'
         >
-          <div className='modal-dialog modal-dialog-centered'>
-            <div className='modal-content'>
-              <div className='modal-header'>
-                <StorefrontOutlinedIcon style={{ color: '#EB00D3' }} />
+          <div className='modal-dialog modal-lg modal-dialog-centered'>
+            <div className='modal-content px-3'>
+              <div className='modal-header border-0 '>
                 <h1
-                  className='modal-title fs-5'
+                  className='modal-title w-100 fw-bolder text-center fs-5 text-main-color'
                   id='exampleModalLabel'
-                  style={{ color: '#EB00D3' }}
                 >
+                  <StorefrontOutlinedIcon sx={{ color: '#EB00D3', mr: 1 }} />
                   Retiro en Tienda GRATIS
                 </h1>
                 <button
@@ -74,10 +73,16 @@ export const DeliveryInformation = () => {
                   aria-label='Close'
                 ></button>
               </div>
-              <div className='modal-body'>
+              <div className='modal-body d-flex align-items-center'>
                 <SelectStore />
               </div>
-              <div className='modal-footer'>
+              <hr className='modal-hr' />
+              <div
+                className='h-25 px-3 mt-3'
+                // style={{
+                //   height: '90px',
+                // }}
+              >
                 Tiendas Disponibles:
                 <br />
               </div>

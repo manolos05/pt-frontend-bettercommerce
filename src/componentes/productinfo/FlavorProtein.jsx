@@ -5,10 +5,12 @@ export const FlavorProtein = () =>{
 
     const [ flavors, setFlavors ] = useState('')
 
+    const URL = import.meta.env.VITE_URL
+
     useEffect(()=> {
         try {
             const getFlavorProtien = async () => {
-              const res = await fetch("http://127.0.0.1:3333/flavors/");
+              const res = await fetch(`${URL}/flavors`);
               const data = await res.json();
               setFlavors(data);
             };
