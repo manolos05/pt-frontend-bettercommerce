@@ -1,17 +1,38 @@
-.hola {
+.text-main-bg {
     background-color: #EB00D3;
 }
 
-.hola1 {
+.text-main-color {
     color:#EB00D3
 }
 
+.discount{
+    width: 74px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: #EB00D3;
+    border-radius: 8px;
+
+
+}
+
 .enviobtn {
-    background-color: #00FFF0;
-    color: #007706;
-    margin: #007706;
-    font-size: smaller;
-    font-weight:600;
+    background-color: rgba(0, 255, 240, 0.2);
+    color: rgba(7, 112, 106, 1);
+    border: 0.5px solid rgba(7, 112, 106, 1); ;
+    width: 114px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8px;
+    margin-top: 20px;
 }
 
 .description {
@@ -23,7 +44,6 @@
 .flavor {
     border-color:#EB00D3;
     color: #EB00D3;
-    width: 250px;
 }
 
 .flavor:hover{
@@ -34,7 +54,7 @@
 .addcart {
     border-color: #EB00D3;
     background-color: #EB00D3;
-    width: 100%;
+    width: 416px;
 
 }
 
@@ -42,9 +62,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #D9D9D9;
     margin-top: 8px;
-    height: 30px;
+    height: 28px;
+    width: 28px;
     font-weight: bolder;
+    border: none;
+}
+
+.counter {
+    display: flex;
+    background-color: rgba(217, 217, 217, 0.17);
+    width: 132px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    height: 25px
+
 }
 
 .addcart:hover {
@@ -52,6 +86,11 @@
     background-color: white;
     color: black;
     font-weight:600;
+}
+
+.chooseflavor {
+    width: 308px;
+    height: 69px;
 }
 
 .chooseflavor:hover {

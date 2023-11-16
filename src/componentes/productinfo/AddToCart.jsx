@@ -17,21 +17,12 @@ export const AddToCart = () => {
 
     return (
         <>
-        <div className="mt-4 pt-4  mb-4 d-flex justify-content-start">
+        <div className="mt-4 pt-4  mb-4 d-flex justify-content-start align-items-center">
         <button type="button" className="btn btn-secondary text-dark buttonCart" onClick={decreaseCount}>-</button>
-        <div style={{
-            marginTop: '15px',
-            display: 'flex',
-            backgroundColor: '#D9D9D9',
-            margin: '5px',
-            width: '218px',
-            borderRadius: '5px',
-            alignItems: 'center',
-            justifyContent: 'center',
-            height:'20px'
-        }}> {count} 
-        </div>
+        <div className="counter"> {count} 
+       
         <button type="button" className="btn btn-secondary text-dark buttonCart" onClick={increaseCount}>+</button>
+        </div>
         <button type="button" className="btn btn-secondary ms-4 addcart">Agregar al carrito</button>
         </div>
         

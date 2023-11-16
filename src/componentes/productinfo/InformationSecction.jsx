@@ -11,19 +11,29 @@ export const InformationSection = () => {
     return (
         <>
 
-            <div className="mt-4 pt-4">
-                <p> BRAND </p>
-                <div className="">
-                    <h4>Whey Protein - Original </h4>
-                </div>
-            </div>
-            <div className="d-flex justify-content-start">
-                <p className="hola btn text-light" disabled>-%5</p>
-                <h2 className="hola1 ps-2 ms-1"> $68.390 </h2>
-                <p className="text-decoration-line-through ps-2 ps-4 fs-5 fw-medium text-secondary"> $71.990 </p>
-            </div>
+<div className='mt-4 pt-4'>
+        <p> BRAND </p>
+        <div className=''>
+          <h1 style={{ color: '#4D525C' }} className='fw-bolder'>
+            Whey Protein - Original{' '}
+          </h1>
+        </div>
+      </div>
+      <div className='d-flex align-items-center justify-content-start'>
+        <span className='discount text-light' disabled>
+          -%5
+        </span>
+        <h2 className='text-main-color fw-bolder align-center m-0 ms-2 p-0 text-center'>
+          {' '}
+          $68.390{' '}
+        </h2>
+        <p className='text-decoration-line-through m-0 align-middle ps-2 ps-4 fs-4 fw-medium text-secondary'>
+          {' '}
+          $71.990{' '}
+        </p>
+      </div>
 
-            <div className='free-shiping '>ENVIO GRATIS STGO</div>
+      <button className='enviobtn'>ENVIO GRATIS STGO</button>
             <p className="mt-4 pt-4"> SKU158023425509 </p>
             <div className="description">
             <p className="p-2">{description}</p>
