@@ -16,11 +16,13 @@ function App() {
 
   return (
     <>
-    <NavBar />
-    <ProductInformation />
-    <hr />
-    <Carrousel />
-    <Footer />
+ <NavBar />
+      <div className='px-5'>
+        <ProductInformation />
+        <hr />
+        <Carrousel />
+      </div>
+      <Footer />
    
     </>
   )

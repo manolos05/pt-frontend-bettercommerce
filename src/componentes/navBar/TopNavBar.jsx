@@ -17,7 +17,7 @@ export const TopNavBar = () => {
           </div>
 
           <button
-            className='mx-auto navbar-toggler'
+            className='navbar-toggler'
             type='button'
             data-bs-toggle='collapse'
             data-bs-theme='dark'

@@ -5,8 +5,14 @@ export const CalificationProduct = () => {
 
     return (
         <>
+        <div className="mt-4" >
+            <div>
+            12
+            </div>
 
-        <p> <strong>12</strong> valoracions de clientes <StarPurple500OutlinedIcon /> 4.8 </p>
+        </div>
+
+        <p> <strong></strong> valoracions de clientes <StarPurple500OutlinedIcon className="star" /> 4.8 </p>
         
         
         

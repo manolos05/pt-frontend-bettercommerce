@@ -7,15 +7,14 @@ export const ProductInformation = () => {
 
     return (
         <>
-        <div className="row">
-            <div className="col-6">
-                <PhotoSecction />
+            <div className='row'>
+                <div className='col-md-6 col-sm-12'>
+                    <PhotoSecction />
+                </div>
+                <div className='col-md-6 col-sm-12'>
+                    <InformationSection />
+                </div>
             </div>
-            <div className="col-6">
-                <InformationSection />
-            </div>
-
-        </div>
             
         </>
     )
