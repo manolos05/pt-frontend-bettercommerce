@@ -18,6 +18,7 @@ function App() {
     <>
     <NavBar />
     <ProductInformation />
+    <hr />
     <Carrousel />
     <Footer />
    

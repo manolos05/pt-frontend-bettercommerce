@@ -1,4 +1,5 @@
 import { AddToCart } from "./AddToCart"
+import { CalificationProduct } from "./CalificationProduct"
 import { DeliveryInformation } from "./DeliveryInformation"
 import { FlavorProtein } from "./FlavorProtein"
 
@@ -6,7 +7,8 @@ import { FlavorProtein } from "./FlavorProtein"
 
 export const InformationSection = () => {
 
-    const description = ' Exclusiva fórmula proteica a base de suero de leche aislado e hidrolizado que ha sido cientificamente diseñada para construir músculo magro libre de grasa, aumentar la fuerza y mejorar el rendimiento deportivo. Cada porción contiene 30 g de proteína y una matriz de aminoacidos de cadena ramificada, glutamina y creatina para acelerar el aumento de musculo y la fuerza'
+    const description = 
+    ' Exclusiva fórmula proteica a base de suero de leche aislado e hidrolizado que ha sido cientificamente diseñada para construir músculo magro libre de grasa, aumentar la fuerza y mejorar el rendimiento deportivo. Cada porción contiene 30 g de proteína y una matriz de aminoacidos de cadena ramificada, glutamina y creatina para acelerar el aumento de musculo y la fuerza'
 
     return (
         <>
@@ -44,6 +46,8 @@ export const InformationSection = () => {
             <FlavorProtein />
             <AddToCart />
             <DeliveryInformation />
+
+            <CalificationProduct />
 
 
         </>
